@@ -224,7 +224,8 @@ hr {
 .footer {
   background: #e0d6dd;
   color: #616161;
-  font-size: 12px;
+  
+  font-size: 22px;
   padding: 20px 0;
   text-align: center;
   padding-bottom: 20px;
@@ -420,7 +421,7 @@ body {
 
 #feet {
   height: 30px;
-  line-height: 10px;
+  line-height: 30px;
   background: #e0d6dd;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -796,8 +797,9 @@ p.paquete2 {
     }
 
     .product-card {
-      -webkit-transition: 5s linear;
-      transition: 5s linear;
+      -webkit-transition: 4s linear;
+      transition: 4s linear;
+      
     }
     .product-card:hover{
       
@@ -815,6 +817,7 @@ p.paquete2 {
       padding-top: 20px;
       text-align: center;
     }
+    
     
     @media ( max-width: 920px ) {
       
@@ -864,6 +867,18 @@ p.paquete2 {
       text-align: center;
       border-radius: 50px;
   }
+
+  .cardProduct__description__secondary__action {
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
   
 
   
