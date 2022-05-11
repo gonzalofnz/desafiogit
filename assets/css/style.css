@@ -398,7 +398,6 @@ body {
   border-radius: 30px 30px 30px 30px;
   font-size: 72px;
   background: -webkit-linear-gradient(#eee, #1100ff);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 .ML p {
@@ -739,7 +738,12 @@ body {
   background-color: #E67E22;
   color: white; }
 
-div {
+.uno {
+  text-align: center;
+  padding: 2rem;
+  margin: .5rem; }
+
+.dos {
   text-align: center;
   padding: 2rem;
   margin: .5rem; }
